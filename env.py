@@ -1,8 +1,8 @@
 # Zhihao Zhang
-# ngsim_env_py Env class
+# ngsim_env_py Env class, this is the class that create an environment for us
 
 
-import DeterministicSingleStepDebugEnv, NGSIMEnv, VectorizedNGSIMEnv, MultiagentNGSIMEnv, MultiagentNGSIMEnvVideoMaker
+from debug_envs import DeterministicSingleStepDebugEnv
 
 
 class Env:
